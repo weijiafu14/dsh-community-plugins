@@ -113,6 +113,19 @@
     "subcategory": "api"
   },
   {
+    "id": "dsh-agy-native",
+    "name": "Antigravity 原生订阅路由",
+    "nameEn": "Antigravity Native ACP Provider",
+    "author": "weijiafu14",
+    "description": "基于本机已登录的官方 Antigravity CLI (agy acp --stdio) 将 Google AI Pro / Ultra 订阅原生接入 DeepSeek Harness：零逆向抓包与零系统提示词篡改（规避 429 风控），支持按会话隔离的直连 MCP 工具桥与 PTC (run_code) 路由、粘性常驻会话池、历史压缩/回退自动同步、Context OS 增量更新、精准单步上下文水位统计与原生图片输入。",
+    "descriptionEn": "Native DeepSeek Harness LLM provider for Google AI Pro and Ultra subscriptions over the official local Antigravity CLI (agy acp --stdio): zero reverse-engineered endpoints and untouched systemInstruction (avoiding upstream 429 WAF rejections), per-session eager MCP and PTC (run_code) routing, sticky warm worker pool, compaction/rewind sync, Context OS support, accurate single-step context occupancy, and multimodal input.",
+    "repo": "https://github.com/weijiafu14/dsh-agy-native",
+    "npm": "dsh-agy-native",
+    "version": "0.2.0",
+    "category": "integration",
+    "subcategory": "external-ai"
+  },
+  {
     "id": "dsh-ai-diagrams",
     "name": "AI 图表",
     "nameEn": "AI Diagrams",
